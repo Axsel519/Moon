@@ -1,0 +1,85 @@
+
+/* Styling the body */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Styling the first parallax's 
+height, width and background color */
+.parallax-1 {
+    width: 100%;
+    height: 600px;
+    background: url('https://s7d2.scene7.com/is/image/TWCNews/full_moon_jpg-2');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+/* Styling the title of first parallax */
+.parallax-1 h2 {
+        margin: auto;
+        position: relative;
+        left: 500x;
+        top: 300px;
+        width: 336px;
+        height: 30px;
+        padding: 30px;
+        background-color: #75757570;
+        color: black;
+        text-align: center;
+}
+
+/* Styling the second parallax's 
+height, width and background color */
+.parallax-2 {
+    width: 100%;
+    height: 600px;
+    background: url('https://s7d2.scene7.com/is/image/TWCNews/full_moon_jpg-2');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+/* Styling the title of second parallax */
+.parallax-2 h2 {
+    margin: auto;
+    position: relative;
+    left: 500x;
+    top: 300px;
+    width: 336px;
+    height: 30px;
+    padding: 30px;
+    background-color: #75757570;
+    color: black;
+    text-align: center;
+}
+
+/* Styling the content or paragraph */
+.para-1 {
+
+    padding: 50px;
+    background-color: #938d8d45;
+    color: #1e1e1e;
+    font-size: 20px;
+}
+
+/* Styling the content or paragraph */
+.para-2 {
+    padding: 50px;
+    background-color: #938d8d45;
+    color: #1e1e1e;
+    font-size: 20px;
+}
+.para-3{
+        padding: 50px;
+        background-color: #414141c2;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+}
+
+@media (max-width: 600px) {
+    .container {
+      width: 100%;
+      padding: 0 10px;
+    }
+}
